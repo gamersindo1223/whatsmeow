@@ -10,9 +10,9 @@ import (
 	reflect "reflect"
 	sync "sync"
 
-	waChatLockSettings "go.mau.fi/whatsmeow/proto/waChatLockSettings"
-	waCommon "go.mau.fi/whatsmeow/proto/waCommon"
-	waDeviceCapabilities "go.mau.fi/whatsmeow/proto/waDeviceCapabilities"
+	waChatLockSettings "github.com/gamersindo1223/whatsmeow/proto/waChatLockSettings"
+	waCommon "github.com/gamersindo1223/whatsmeow/proto/waCommon"
+	waDeviceCapabilities "github.com/gamersindo1223/whatsmeow/proto/waDeviceCapabilities"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 

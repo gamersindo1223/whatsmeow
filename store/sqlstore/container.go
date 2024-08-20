@@ -15,11 +15,11 @@ import (
 	"github.com/google/uuid"
 	"go.mau.fi/util/random"
 
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	"go.mau.fi/whatsmeow/store"
-	"go.mau.fi/whatsmeow/types"
-	"go.mau.fi/whatsmeow/util/keys"
-	waLog "go.mau.fi/whatsmeow/util/log"
+	waProto "github.com/gamersindo1223/whatsmeow/binary/proto"
+	"github.com/gamersindo1223/whatsmeow/store"
+	"github.com/gamersindo1223/whatsmeow/types"
+	"github.com/gamersindo1223/whatsmeow/util/keys"
+	waLog "github.com/gamersindo1223/whatsmeow/util/log"
 )
 
 // Container is a wrapper for a SQL database that can contain multiple whatsmeow sessions.

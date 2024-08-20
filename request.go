@@ -12,8 +12,8 @@ import (
 	"strconv"
 	"time"
 
-	waBinary "go.mau.fi/whatsmeow/binary"
-	"go.mau.fi/whatsmeow/types"
+	waBinary "github.com/gamersindo1223/whatsmeow/binary"
+	"github.com/gamersindo1223/whatsmeow/types"
 )
 
 func (cli *Client) generateRequestID() string {
