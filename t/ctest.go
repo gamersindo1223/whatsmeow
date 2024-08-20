@@ -43,7 +43,7 @@ func main() {
 		panic(err)
 	}
 	clientLog := waLog.Stdout("Client", "DEBUG", true)
-	client := whatsmeow.NewClient(deviceStore, clientLog)
+	client := waSocket.NewClient(deviceStore, clientLog)
 	client.AddEventHandler(eventHandler)
 
 	if client.Store.ID == nil {
