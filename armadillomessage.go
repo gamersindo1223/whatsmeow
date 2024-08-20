@@ -12,7 +12,7 @@ import (
 	"google.golang.org/protobuf/proto"
 
 	armadillo "github.com/gamersindo1223/whatsmeow/proto"
-	"github.com/gamersindo1223/whatsmeow/proto/waCommon"
+	// "github.com/gamersindo1223/whatsmeow/proto/waCommon"
 	"github.com/gamersindo1223/whatsmeow/proto/waMsgApplication"
 	"github.com/gamersindo1223/whatsmeow/proto/waMsgTransport"
 	"github.com/gamersindo1223/whatsmeow/types"
@@ -68,8 +68,8 @@ func decodeArmadillo(data []byte) (dec events.FBMessage, err error) {
 	case *waMsgApplication.MessageApplication_Payload_ApplicationData:
 		err = fmt.Errorf("unsupported application data payload")
 	case *waMsgApplication.MessageApplication_Payload_SubProtocol:
-		var protoMsg proto.Message
-		var subData *waCommon.SubProtocol
+		// var protoMsg proto.Message
+		// var subData *waCommon.SubProtocol
 		switch subProtocol := typedContent.SubProtocol.GetSubProtocol().(type) {
 		case *waMsgApplication.MessageApplication_SubProtocolPayload_ConsumerMessage:
 			dec.Message, err = subProtocol.Decode()
@@ -86,12 +86,12 @@ func decodeArmadillo(data []byte) (dec events.FBMessage, err error) {
 		default:
 			return dec, fmt.Errorf("unsupported subprotocol type: %T", subProtocol)
 		}
-		if protoMsg != nil {
-			err = proto.Unmarshal(subData.GetPayload(), protoMsg)
-			if err != nil {
-				return dec, fmt.Errorf("failed to unmarshal application subprotocol payload (%T v%d): %w", protoMsg, subData.GetVersion(), err)
-			}
-		}
+		// if protoMsg != nil {
+		// 	err = proto.Unmarshal(subData.GetPayload(), protoMsg)
+		// 	if err != nil {
+		// 		return dec, fmt.Errorf("failed to unmarshal application subprotocol payload (%T v%d): %w", protoMsg, subData.GetVersion(), err)
+		// 	}
+		// }
 	default:
 		err = fmt.Errorf("unsupported application payload content type: %T", typedContent)
 	}
