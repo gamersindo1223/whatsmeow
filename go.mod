@@ -1,4 +1,4 @@
-module github.com/gamersindo1223/whatsmeow
+module github.com/amiruldev20/waSocket
 
 go 1.21
 

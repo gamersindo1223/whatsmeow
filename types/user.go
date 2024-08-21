@@ -9,7 +9,7 @@ package types
 import (
 	"time"
 
-	waProto "github.com/gamersindo1223/whatsmeow/binary/proto"
+	waProto "github.com/amiruldev20/waSocket/binary/proto"
 )
 
 // VerifiedName contains verified WhatsApp business details.

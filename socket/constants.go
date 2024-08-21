@@ -13,7 +13,7 @@ package socket
 import (
 	"errors"
 
-	"github.com/gamersindo1223/whatsmeow/binary/token"
+	"github.com/amiruldev20/waSocket/binary/token"
 )
 
 const (

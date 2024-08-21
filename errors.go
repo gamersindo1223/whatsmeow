@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"net/http"
 
-	waBinary "github.com/gamersindo1223/whatsmeow/binary"
+	waBinary "github.com/amiruldev20/waSocket/binary"
 )
 
 // Miscellaneous errors

@@ -16,9 +16,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gamersindo1223/whatsmeow/store"
-	"github.com/gamersindo1223/whatsmeow/types"
-	"github.com/gamersindo1223/whatsmeow/util/keys"
+	"github.com/amiruldev20/waSocket/store"
+	"github.com/amiruldev20/waSocket/types"
+	"github.com/amiruldev20/waSocket/util/keys"
 )
 
 // ErrInvalidLength is returned by some database getters if the database returned a byte array with an unexpected length.

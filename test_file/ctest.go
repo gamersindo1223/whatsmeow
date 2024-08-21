@@ -13,11 +13,11 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/gamersindo1223/whatsmeow"
-	"github.com/gamersindo1223/whatsmeow/store/sqlstore"
-	"github.com/gamersindo1223/whatsmeow/types/events"
+	"github.com/amiruldev20/waSocket"
+	"github.com/amiruldev20/waSocket/store/sqlstore"
+	"github.com/amiruldev20/waSocket/types/events"
 	_ "github.com/mattn/go-sqlite3"
-	waLog "github.com/gamersindo1223/whatsmeow/util/log"
+	waLog "github.com/amiruldev20/waSocket/util/log"
 )
 
 func eventHandler(evt interface{}) {

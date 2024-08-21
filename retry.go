@@ -20,14 +20,14 @@ import (
 	"go.mau.fi/libsignal/protocol"
 	"google.golang.org/protobuf/proto"
 
-	waBinary "github.com/gamersindo1223/whatsmeow/binary"
-	waProto "github.com/gamersindo1223/whatsmeow/binary/proto"
-	"github.com/gamersindo1223/whatsmeow/proto/waCommon"
-	"github.com/gamersindo1223/whatsmeow/proto/waConsumerApplication"
-	"github.com/gamersindo1223/whatsmeow/proto/waMsgApplication"
-	"github.com/gamersindo1223/whatsmeow/proto/waMsgTransport"
-	"github.com/gamersindo1223/whatsmeow/types"
-	"github.com/gamersindo1223/whatsmeow/types/events"
+	waBinary "github.com/amiruldev20/waSocket/binary"
+	waProto "github.com/amiruldev20/waSocket/binary/proto"
+	"github.com/amiruldev20/waSocket/proto/waCommon"
+	"github.com/amiruldev20/waSocket/proto/waConsumerApplication"
+	"github.com/amiruldev20/waSocket/proto/waMsgApplication"
+	"github.com/amiruldev20/waSocket/proto/waMsgTransport"
+	"github.com/amiruldev20/waSocket/types"
+	"github.com/amiruldev20/waSocket/types/events"
 )
 
 // Number of sent messages to cache in memory for handling retry receipts.

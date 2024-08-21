@@ -10,7 +10,7 @@ import (
 	reflect "reflect"
 	sync "sync"
 
-	waUserPassword "github.com/gamersindo1223/whatsmeow/proto/waUserPassword"
+	waUserPassword "github.com/amiruldev20/waSocket/proto/waUserPassword"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 

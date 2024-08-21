@@ -9,9 +9,9 @@ package events
 import (
 	"time"
 
-	"github.com/gamersindo1223/whatsmeow/appstate"
-	waProto "github.com/gamersindo1223/whatsmeow/binary/proto"
-	"github.com/gamersindo1223/whatsmeow/types"
+	"github.com/amiruldev20/waSocket/appstate"
+	waProto "github.com/amiruldev20/waSocket/binary/proto"
+	"github.com/amiruldev20/waSocket/types"
 )
 
 // Contact is emitted when an entry in the user's contact list is modified from another device.

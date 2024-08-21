@@ -14,9 +14,9 @@ import (
 	"go.mau.fi/libsignal/ecc"
 	"google.golang.org/protobuf/proto"
 
-	waProto "github.com/gamersindo1223/whatsmeow/binary/proto"
-	"github.com/gamersindo1223/whatsmeow/socket"
-	"github.com/gamersindo1223/whatsmeow/util/keys"
+	waProto "github.com/amiruldev20/waSocket/binary/proto"
+	"github.com/amiruldev20/waSocket/socket"
+	"github.com/amiruldev20/waSocket/util/keys"
 )
 
 const NoiseHandshakeResponseTimeout = 20 * time.Second

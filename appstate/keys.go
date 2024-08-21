@@ -11,9 +11,9 @@ import (
 	"encoding/base64"
 	"sync"
 
-	"github.com/gamersindo1223/whatsmeow/store"
-	"github.com/gamersindo1223/whatsmeow/util/hkdfutil"
-	waLog "github.com/gamersindo1223/whatsmeow/util/log"
+	"github.com/amiruldev20/waSocket/store"
+	"github.com/amiruldev20/waSocket/util/hkdfutil"
+	waLog "github.com/amiruldev20/waSocket/util/log"
 )
 
 // WAPatchName represents a type of app state patch.

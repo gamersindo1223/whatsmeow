@@ -1,6 +1,6 @@
 syntax = "proto2";
 package WAMediaEntryData;
-option go_package = "github.com/gamersindo1223/whatsmeow/proto/waMediaEntryData";
+option go_package = "github.com/amiruldev20/waSocket/proto/waMediaEntryData";
 
 message MediaEntry {
 	message ProgressiveJpegDetails {

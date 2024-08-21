@@ -12,14 +12,14 @@ import (
 	"strconv"
 	"time"
 
-	waBinary "github.com/gamersindo1223/whatsmeow/binary"
-	waProto "github.com/gamersindo1223/whatsmeow/binary/proto"
-	armadillo "github.com/gamersindo1223/whatsmeow/proto"
-	"github.com/gamersindo1223/whatsmeow/proto/waArmadilloApplication"
-	"github.com/gamersindo1223/whatsmeow/proto/waConsumerApplication"
-	"github.com/gamersindo1223/whatsmeow/proto/waMsgApplication"
-	"github.com/gamersindo1223/whatsmeow/proto/waMsgTransport"
-	"github.com/gamersindo1223/whatsmeow/types"
+	waBinary "github.com/amiruldev20/waSocket/binary"
+	waProto "github.com/amiruldev20/waSocket/binary/proto"
+	armadillo "github.com/amiruldev20/waSocket/proto"
+	"github.com/amiruldev20/waSocket/proto/waArmadilloApplication"
+	"github.com/amiruldev20/waSocket/proto/waConsumerApplication"
+	"github.com/amiruldev20/waSocket/proto/waMsgApplication"
+	"github.com/amiruldev20/waSocket/proto/waMsgTransport"
+	"github.com/amiruldev20/waSocket/types"
 )
 
 // QR is emitted after connecting when there's no session data in the device store.

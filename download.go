@@ -22,11 +22,11 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	waProto "github.com/gamersindo1223/whatsmeow/binary/proto"
-	"github.com/gamersindo1223/whatsmeow/proto/waMediaTransport"
-	"github.com/gamersindo1223/whatsmeow/socket"
-	"github.com/gamersindo1223/whatsmeow/util/cbcutil"
-	"github.com/gamersindo1223/whatsmeow/util/hkdfutil"
+	waProto "github.com/amiruldev20/waSocket/binary/proto"
+	"github.com/amiruldev20/waSocket/proto/waMediaTransport"
+	"github.com/amiruldev20/waSocket/socket"
+	"github.com/amiruldev20/waSocket/util/cbcutil"
+	"github.com/amiruldev20/waSocket/util/hkdfutil"
 )
 
 // MediaType represents a type of uploaded file on WhatsApp.

@@ -16,7 +16,7 @@ import (
 	"runtime/debug"
 	"time"
 
-	"github.com/gamersindo1223/whatsmeow/proto/waE2E"
+	"github.com/amiruldev20/waSocket/proto/waE2E"
 
 	"go.mau.fi/libsignal/groups"
 	"go.mau.fi/libsignal/protocol"
@@ -25,12 +25,12 @@ import (
 	"go.mau.fi/util/random"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/gamersindo1223/whatsmeow/appstate"
-	waBinary "github.com/gamersindo1223/whatsmeow/binary"
-	waProto "github.com/gamersindo1223/whatsmeow/binary/proto"
-	"github.com/gamersindo1223/whatsmeow/store"
-	"github.com/gamersindo1223/whatsmeow/types"
-	"github.com/gamersindo1223/whatsmeow/types/events"
+	"github.com/amiruldev20/waSocket/appstate"
+	waBinary "github.com/amiruldev20/waSocket/binary"
+	waProto "github.com/amiruldev20/waSocket/binary/proto"
+	"github.com/amiruldev20/waSocket/store"
+	"github.com/amiruldev20/waSocket/types"
+	"github.com/amiruldev20/waSocket/types/events"
 )
 
 var pbSerializer = store.SignalProtobufSerializer

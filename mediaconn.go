@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"time"
 
-	waBinary "github.com/gamersindo1223/whatsmeow/binary"
-	"github.com/gamersindo1223/whatsmeow/types"
+	waBinary "github.com/amiruldev20/waSocket/binary"
+	"github.com/amiruldev20/waSocket/types"
 )
 
 //type MediaConnIP struct {
